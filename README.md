@@ -6,8 +6,8 @@ This script generates random passwords and allows the user to choose whether to 
 
 1. Clone the repository to your local machine.
 2. Make sure you have `openssl` installed on your system.
- 3. Run the script using the command `./password_generator.sh`.
- 4. Follow the prompts to generate and manage passwords.
+3. Run the script using the command `./password_generator.sh`.
+4. Follow the prompts to generate and manage passwords.
 
 ## Functionality
 
@@ -41,9 +41,10 @@ Navigate to the Project Directory Change to the directory containing the passwor
     cd Shell-Scripting---Password-Generator
 
 - Run the Script :
+
 Execute the script by running the following command
 
-    $./password-generator.sh
+    ./password-generator.sh
 
 - Follow the Prompts
 The script will guide you through generating and managing passwords:
@@ -67,7 +68,7 @@ example:
     Enter a name for this password: mypassword
     Password saved in the database.
 
- it will be saved in the password_database.db file. The script will prompt you to enter a passphrase to encrypt the database file. This passphrase will be used to encrypt and decrypt the password database.
+It will be saved in the password_database.db file. The script will prompt you to enter a passphrase to encrypt the database file. This passphrase will be used to encrypt and decrypt the password database.
 
 
     Enter a passphrase to encrypt the password database : [Enter your passphrase]
